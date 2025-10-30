@@ -11,7 +11,7 @@ from time import sleep
 async def start(client, message):
 
     if message.from_user.id in Config.BANNED_USERS:
-        await message.reply_text("Sorry, You are banned.")
+        await message.reply_text("Sorry, Bro You are banned.")
         return
 
     user = message.from_user
