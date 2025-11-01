@@ -40,13 +40,19 @@ class Config(object):
 class Txt(object):
     # part of text configuration
     START_TXT = """<blockquote><b> Hᴀɪ {} 👋,
-Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ
-Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oꜰ Yᴏᴜʀ Fɪʟᴇ
-Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ & Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ
-Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ </b></blockquote>
+<blockquote>
+<b>Tʜɪs ɪs ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ!</b>
+<br><br>
+✅ <b>Rᴇɴᴀᴍᴇ ᴀɴʏ Fɪʟᴇ</b><br>
+✅ <b>Cʜᴀɴɢᴇ / Sᴇᴛ Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ</b><br>
+✅ <b>Vɪᴅᴇᴏ ⇆ Fɪʟᴇ Cᴏɴᴠᴇʀsɪᴏɴ</b><br>
+✅ <b>Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ Sᴜᴘᴘᴏʀᴛ</b>
+<br><br>
+⚡ <b>Sᴍᴀʀᴛ | ꜰᴀsᴛ | ᴘᴏᴡᴇʀꜰᴜʟ 🚀</b>
+</blockquote>
 """
 
-    ABOUT_TXT = """<blockquote><b>╭───────────⍟
+    ABOUT_TXT = """<blockquote> <b>╭───────────⍟
 • ᴍy ɴᴀᴍᴇ : {}
 • ᴘʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/ind_gamer_1>Govar</a>
 • ɴᴇᴛᴡᴏʀᴋ : <a href=https://t.me/All_animes_in_teluguu_vs>Govar</a> 
@@ -55,7 +61,7 @@ Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ
 • ᴀɴɪᴍᴇ: <a href=https://t.me/All_animes_in_teluguu_vs>Govar</a>
 • ᴄʜᴀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/All_animes_in_telugu_Go>Govar</a>
 • ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://All_animes_in_telugu_Go>Neku andhu ku</a>
-╰───────────────⍟</b></blockquote>"""
+╰───────────────⍟</b> </blockquote>"""
 
     HELP_TXT = """
 🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ</u></b>
@@ -67,10 +73,10 @@ Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ
 
 📑 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ</u></b>
 
-<b>•></b> /set_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Sᴇᴛ ᴀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
-<b>•></b> /see_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Vɪᴇᴡ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
-<b>•></b> /del_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
-Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
+<b>•> /set_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Sᴇᴛ ᴀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ </b>
+<b>•> /see_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Vɪᴇᴡ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ </b>
+<b>•> /del_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ </b>
+Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename} </b>
 💾 Sɪᴢᴇ: {filesize}
 ⏰ Dᴜʀᴀᴛɪᴏɴ: {duration} </code>
 
@@ -91,10 +97,10 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 <blockquote><b>📥Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @ind_gamer_1</b></blockquote>
 """
 
-    PROGRESS_BAR = """<blockquote><b>\n
+    PROGRESS_BAR = """<blockquote> <b>\n
 ╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱➜
 ➜ 🗃️ sɪᴢᴇ: {1} | {2}
 ➜ ⏳️ ᴅᴏɴᴇ : {0}%
 ➜ 🚀 sᴘᴇᴇᴅ: {3}/s
 ➜ ⏰️ ᴇᴛᴀ: {4}
-╰━━━━━━━━━━━━━━━➜ </b></blockquote>"""
+╰━━━━━━━━━━━━━━━➜ </b> </blockquote>"""
